@@ -18,6 +18,7 @@ nav ul li a{
     background: black;
     padding:5px;
     margin: 5px;
+    text-decoration: none;
 }
 nav ul li{
     line-height: 200%;
@@ -25,7 +26,9 @@ nav ul li{
     background: white;
 }
 
-nav ul li:hover{
-    border: 1px solid black;
-    color:black;
+nav ul li a:hover{
+    background: orange;
+    color:white;
+    border:1px white solid;
+    text-decoration: none;
 }
