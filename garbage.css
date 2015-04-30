@@ -12,14 +12,17 @@ body{
     background: #fff;
 }
 
-nav ul li{
-    display: inline-block;
-    background: white;
-    border: 1px solid lightblue; 
-    color: lightblue;
+nav ul li a{
+    border: 1px solid grey; 
+    color: white;
+    background: black;
     padding:5px;
     margin: 5px;
-    font-size: x-large;
+}
+nav ul li{
+    line-height: 200%;
+    list-style-type: none;
+    background: white;
 }
 
 nav ul li:hover{
