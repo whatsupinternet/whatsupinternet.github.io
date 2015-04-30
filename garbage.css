@@ -1,3 +1,8 @@
+html{
+    background: #ddd;
+    font-family: sans-serif;
+}
+
 body{
     margin-left:auto;
     margin-right:auto;
@@ -6,6 +11,18 @@ body{
     border: 10px solid #eee;
     background: #fff;
 }
-html{
-    background: #ddd;
+
+nav ul li{
+    display: inline-block;
+    background: white;
+    border: 1px solid lightblue; 
+    color: lightblue;
+    padding:5px;
+    margin: 5px;
+    font-size: x-large;
+}
+
+nav ul li:hover{
+    border: 1px solid black;
+    color:black;
 }
