@@ -1,2 +1,11 @@
-*{
+body{
+    margin-left:auto;
+    margin-right:auto;
+    width:500px;
+    padding:10px;
+    border: 10px solid #eee;
+    background: #fff;
+}
+html{
+    background: #ddd;
 }
