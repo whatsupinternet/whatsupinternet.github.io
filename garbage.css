@@ -21,8 +21,8 @@ background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
   margin: 10px;
 }
 
-body{
-  width: 600px;
+section.work{
+  width:300px;
 }
 
 article{
