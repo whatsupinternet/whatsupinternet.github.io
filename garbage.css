@@ -21,6 +21,14 @@ background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
   margin: 10px;
 }
 
+body{
+  width: 600px;
+}
+
 article{
   display: block;
+}
+
+section img{
+  width: 100%;
 }
