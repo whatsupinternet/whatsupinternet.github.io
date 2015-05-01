@@ -18,4 +18,5 @@ section{
 -webkit-background-clip: padding-box; /* for Safari */
 background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
   padding: 10px;
+  margin: 10px;
 }
