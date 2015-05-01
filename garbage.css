@@ -4,9 +4,7 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
   font-family: monospace;
-
 }
 
 section{
@@ -25,7 +23,7 @@ section.work{
 }
 
 section#header{
-  width:auto;
+  width:90%;
 }
 
 article{
