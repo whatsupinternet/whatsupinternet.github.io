@@ -1,3 +1,18 @@
+@font-face {
+    font-family: camcorder;
+    src: url(./fonts/camcorder_reg_web-webfont.ttf);
+}
+
+@font-face {
+    font-family: camcorderOutline;
+    src: url(./fonts/camcorder_ol2_web-webfont.ttf);
+}
+
+@font-face {
+    font-family: camcorderBackground;
+    src: url(./fonts/camcorder_inv_web-webfont.ttf);
+}
+
 html {
   background: url(wave.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -20,10 +35,17 @@ background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
 
 section.work{
   width: 200px;
+  font-family: camcorder;
+}
+
+section.work h1{
+  width: 200px;
+  font-family: camcorderBackground;
 }
 
 section#header{
   width:90%;
+  font-family: camcorderOutline;
 }
 
 article{
