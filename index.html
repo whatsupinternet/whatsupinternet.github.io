@@ -4,6 +4,62 @@
 <head>
 	<title>whatsupinter.net</title>
 	<link rel="stylesheet" type="text/css" href="garbage.css" />
+	<style>
+		html{
+				font-family: sans-serif;
+		}
+		h1, h2{
+			font-weight: 100;
+		}
+		header{
+			background: lightblue;
+			color: black;
+			padding: 5px;
+			text-align: center;
+		}
+		h3{
+			color: black;
+			text-align: center;
+			text-transform: uppercase;
+		}
+		nav{
+			background: lightgreen;
+			color: white;
+			padding: 5px;
+			text-align: left;
+		}
+		nav ul{
+			list-style: none;
+			padding-left: 0px;
+		}
+		nav ul li{
+			display: inline-block;
+			line-height: 250%;
+		}
+		nav ul li a{
+			font-size: x-large;
+			background: white;
+			color: black;
+			margin: 5px;
+			padding: 5px;
+		}
+		nav ul li a:hover{
+			background: black;
+			color:white;
+		}
+		nav ul li .desc{
+			display: none;
+		}
+		section{
+			padding:15px;
+		}
+		section#about{
+			background: pink;
+		}
+		section#values{
+			background:aqua;
+		}
+	</style>
 </head>
 <body>
 	<header>
@@ -11,7 +67,45 @@
 		<h2> garbage content for a garbage world </h2>
 	</header>
 
-	<article>
+	<nav>
+		<h3> Our Terrible Work </h3>
+		<ul>
+			<li>
+				<a href='/buspool'>buspool</a>
+				<div class='desc'> free opiate bus rides for the scum masses </div>
+			</li>
+			<li>
+				<a href='/wiinky'>wiinky</a>
+				<div class='desc'> teaching nerds social skills thru tech. not that it'll help </div>
+			</li>
+			<li>
+				<a href='/shitlord'>shitlord</a>
+				<div class='desc'> check your privilege, fuccboi </div>
+			</li>
+			<li>
+				<a href='/pungent'>pungent</a>
+				<div class='desc'> need an ark? i noah guy </div>
+			</li>
+			<li>
+				<a href='http://imthebabygottalove.me/'>imthebabygottalove.me</a>
+				<div class='desc'> i wasn't even alive when this aired </div>
+			</li>
+			<li>
+				<a href='http://pltchfork.tumblr.com'>pltchfork</a>
+				<div class='desc'> music isn't subjective </div>
+			</li>
+			<li>
+				<a href='http://nbcpilots.tumblr.com/'>nbcpilots</a>
+				<div class='desc'> coming this fall to nbc </div>
+			</li>
+			<li>
+				<a href='http://getmagic.tumblr.com/'>magic</a>
+				<div class='desc'> it's not even funny </div>
+			</li>
+		</ul>
+	</nav>
+
+	<section id='about'>
 		<h3>ABOUT US</h3>
 		<p>
 			<b>whatsupinter.net</b> is the latest and most regrettable online social
@@ -28,10 +122,12 @@
 			to help them live better, faster, and harder. to visit whatsupinter.net is a
 			chance to be a part of a diverse and integrated audience with a unique
 			culture and history. our parent corporation, <b>big fart dog</b>, is the
-			world’s largest public corporation, with revenue at 477 billion dollars in
+			world's largest public corporation, with revenue at 477 billion dollars in
 			2014, it is the largest provider of shitty websites in the world. NYSE 93.24
 			as of 9/2/2014. fuck with us
 		</p>
+	</section>
+	<section id='values'>
 		<h3>OUR VALUES </h3>
 		<p>
 			<br/>
@@ -39,45 +135,7 @@
 			<br/>
 			<br/>
 		</p>
-		<h3>OUR WORK </h3>
-		<nav>
-			<ul>
-				<li>
-					<a href='/buspool'>buspool</a>
-					free opiate bus rides for the scum masses
-				</li>
-				<li>
-					<a href='/wiinky'>wiinky</a>
-					teaching nerds social skills thru tech. not that it'll help
-				</li>
-				<li>
-					<a href='/shitlord'>shitlord</a>
-					check your privilege, fuccboi
-				</li>
-				<li>
-					<a href='/pungent'>pungent</a>
-					need an ark? i noah guy
-				</li>
-				<li>
-					<a href='http://imthebabygottalove.me/'>imthebabygottalove.me</a>
-					i wasn't even alive when this aired
-				</li>
-				<h3> tumblrs </h3>
-				<li>
-					<a href='http://pltchfork.tumblr.com'>pltchfork</a>
-					music isn't subjective
-				</li>
-				<li>
-					<a href='http://nbcpilots.tumblr.com/'>nbcpilots</a>
-					coming this fall to nbc
-				</li>
-				<li>
-					<a href='http://getmagic.tumblr.com/'>magic</a>
-					it's not even funny
-				</li>
-			</ul>
-		</nav>
-	</article>
+	</section>
 </body>
 
 </html>
