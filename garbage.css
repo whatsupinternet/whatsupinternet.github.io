@@ -5,14 +5,13 @@ html {
   -o-background-size: cover;
   background-size: cover;
 
-  font-family: sans-serif;
   font-family: monospace;
 
 }
 
 section{
   float: left;
-  width: 200px;
+  width: 450px;
   background: white;
   border: 10px solid rgba(255, 255, 255, .5);
 -webkit-background-clip: padding-box; /* for Safari */
@@ -22,7 +21,7 @@ background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
 }
 
 section.work{
-  width:300px;
+  width: 200px;
 }
 
 article{
