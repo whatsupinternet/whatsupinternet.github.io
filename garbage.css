@@ -1,57 +1,62 @@
 html{
     font-family: sans-serif;
-    width: 600px;
+    width: 550px;
     margin-left: auto;
     margin-right: auto;
 }
-h1, h2{
+section{
+  padding:15px;
+  color: black;
+  text-align: center;
+  box-shadow: 5px 5px 5px #888888;
+  margin: 10px;
+}
+section#header{
+  background: lightblue;
   font-weight: 100;
 }
-header{
-  background: lightblue;
-  color: black;
-  padding: 5px;
-  text-align: center;
+section#header h1, section#header h2{
+  font-weight:100;
 }
 h3{
   color: black;
   text-align: center;
   text-transform: uppercase;
 }
-nav{
+section#nav{
   background: lightgreen;
   color: white;
   padding: 5px;
   text-align: left;
 }
-nav ul{
+section#nav ul{
   list-style: none;
   padding-left: 0px;
 }
-nav ul li{
+section#nav ul li{
   display: inline-block;
   line-height: 250%;
   color: black;
   margin: 5px;
 }
-nav ul li a{
+section#nav ul li a{
   font-size: x-large;
   background: white;
   color: black;
   padding: 5px;
 }
-nav ul li a:hover{
+section#nav ul li a:hover{
   background: black;
   color:white;
 }
-nav ul li .desc{
+section#nav ul li .desc{
   display: none;
-}
-section{
-  padding:15px;
 }
 section#about{
   background: pink;
+}
+section#about p{
+  text-align: left;
 }
 section#values{
   background:aqua;
