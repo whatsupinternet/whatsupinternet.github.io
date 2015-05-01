@@ -1,66 +1,15 @@
-html{
-    font-family: sans-serif;
-    width: 550px;
-    margin-left: auto;
-    margin-right: auto;
+html {
+  background: url(wave.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  font-family: sans-serif;
+  font-family: monospace;
+
 }
-section{
-  padding:15px;
-  color: black;
-  text-align: center;
-  box-shadow: 5px 5px 5px #888888;
-  margin: 10px;
-}
-section#header{
-  background: lightblue;
-  font-weight: 100;
-}
-section#header h1, section#header h2{
-  font-weight:100;
-}
-section#header h1{
-  font-size: xx-large;
-}
-h3{
-  color: black;
-  text-align: center;
-  text-transform: uppercase;
-}
-section#nav{
-  background: lightgreen;
-  color: white;
-  padding: 5px;
-  text-align: left;
-}
-section#nav ul{
-  list-style: none;
-  padding-left: 0px;
-}
-section#nav ul li{
-  display: inline-block;
-  line-height: 250%;
-  color: black;
-  margin: 5px;
-}
-section#nav ul li a{
-  font-size: x-large;
-  background: white;
-  color: black;
-  padding: 5px;
-}
-section#nav ul li a:hover{
-  background: black;
-  color:white;
-}
-section#nav ul li .desc{
-  display: none;
-}
-section#about{
-  background: pink;
-}
-section#about p{
-  text-align: left;
-}
-section#values{
-  background:aqua;
+
+body{
+  width: 300px;
 }
