@@ -43,6 +43,11 @@ section.work h1{
   font-family: camcorderBackground;
 }
 
+section.work h2{
+  float:right;
+  color:grey;
+}
+
 section#header{
   width:90%;
   font-family: camcorderOutline;
