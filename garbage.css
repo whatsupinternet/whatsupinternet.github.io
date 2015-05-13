@@ -44,6 +44,7 @@ section.work h1{
 }
 
 section.work h2{
+  text-align: right;
   font-size: small;
   color:grey;
 }
