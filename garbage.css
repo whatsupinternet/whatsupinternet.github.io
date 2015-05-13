@@ -52,6 +52,10 @@ article{
   display: block;
 }
 
+section h1{
+    font-family: camcorderOutline;
+}
+
 section img{
   width: 100%;
 }
